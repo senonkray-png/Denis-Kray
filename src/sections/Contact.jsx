@@ -62,8 +62,11 @@ const Contact = () => {
                         <h2 className="text-sm uppercase tracking-[0.4em] text-gold font-bold mb-8">
                             04 — Connect
                         </h2>
-                        <h3 className="text-4xl md:text-[4.8rem] lg:text-[5.4rem] xl:text-[6rem] font-syne font-black tracking-tighter mb-12 uppercase leading-[1.02] md:leading-[0.96] text-grey-deep max-w-full sm:max-w-[36rem] break-words">
-                            AI Архитектура<br /> и Автоматизация<br /> под ключ.
+                        <h3
+                            className="font-syne font-black tracking-tighter mb-12 uppercase leading-[1.02] md:leading-[0.96] text-grey-deep max-w-full sm:max-w-[36rem] break-normal whitespace-normal"
+                            style={{ fontSize: 'clamp(2.8rem, 5vw, 6.2rem)', overflowWrap: 'normal', wordBreak: 'normal' }}
+                        >
+                            AI Архитектура и Автоматизация под ключ.
                         </h3>
 
                         <div className="flex flex-wrap gap-8 mt-12">
